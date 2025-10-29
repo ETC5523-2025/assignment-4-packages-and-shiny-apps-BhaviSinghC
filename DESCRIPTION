@@ -1,0 +1,8 @@
+Package: assignment4bsingh
+Title: Assignment 4 Package
+Description: Package for assignment 4 - packages and Shiny apps
+Version: 0.0.1
+Authors@R: person('Bhavi', 'Singh', email = 'chauhanbhavi20@gmail.com', role = c('cre', 'aut'))
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.3
