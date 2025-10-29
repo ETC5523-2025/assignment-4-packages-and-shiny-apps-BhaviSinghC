@@ -1,0 +1,44 @@
+---
+title: "Using the assignment4bsingh Package"
+author: "Bhavi Singh"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the assignment4bsingh Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Introduction
+
+This vignette demonstrates how to use the `assignment4bsingh` package for data analysis and visualization.
+
+## Installation
+
+```{r, eval = FALSE}
+remotes::install_github("BhaviSinghC/assignment-4-packages-and-shiny-apps-BhaviSinghC")
+```
+
+## Basic Usage
+
+```{r}
+library(assignment4bsingh)
+hello()
+```
+
+## Running the Shiny App
+
+```{r, eval = FALSE}
+run_app()
+```
+
+## Conclusion
+
+This package provides tools for data analysis and interactive visualization through a Shiny interface.

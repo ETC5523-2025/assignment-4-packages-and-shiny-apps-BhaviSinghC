@@ -1,8 +1,17 @@
 Package: assignment4bsingh
-Title: Assignment 4 Package
-Description: Package for assignment 4 - packages and Shiny apps
-Version: 0.0.1
-Authors@R: person('Bhavi', 'Singh', email = 'chauhanbhavi20@gmail.com', role = c('cre', 'aut'))
+Title: Assignment 4 - Packages and Shiny Apps
+Version: 0.1.0
+Author: Bhavi Singh
+Maintainer: Bhavi Singh <your.email@example.com>
+Description: A package for Assignment 4 containing a Shiny app, data processing functions, and comprehensive documentation.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.3.3
+LazyData: true
+Imports:
+    shiny,
+    dplyr,
+    ggplot2
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
